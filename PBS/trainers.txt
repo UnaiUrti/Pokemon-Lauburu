@@ -1,0 +1,27 @@
+﻿# Consulta la documentación de la wiki para aprender a modificar este archivo.
+#-------------------
+CAMPER
+Liam
+2
+DIGLETT,10
+BONSLY,11
+#-------------------
+RIVAL1
+Egoitz
+1
+CHARMANDER,5
+#-------------------
+CAMPER
+Jeff
+1
+ABOMASNOW,10,,POWDERSNOW,LEER,RAZORLEAF,ICYWIND
+#-------------------
+FISHERMAN
+Andrew
+1
+ABOMASNOW,10,,POWDERSNOW,LEER,RAZORLEAF,ICYWIND
+#-------------------
+CAMPER
+Jeff,1
+1
+ABOMASNOW,10,,POWDERSNOW,LEER,RAZORLEAF,ICYWIND
