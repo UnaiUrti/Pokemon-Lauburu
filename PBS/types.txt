@@ -7,7 +7,7 @@ Immunities=GHOST
 [1]
 Name=Lucha
 InternalName=FIGHTING
-Weaknesses=FLYING,PSYCHIC
+Weaknesses=FLYING,PSYCHIC,FAIRY
 Resistances=ROCK,BUG,DARK
 
 [2]
@@ -21,7 +21,7 @@ Immunities=GROUND
 Name=Veneno
 InternalName=POISON
 Weaknesses=GROUND,PSYCHIC
-Resistances=FIGHTING,POISON,BUG,GRASS
+Resistances=FIGHTING,POISON,BUG,GRASS,FAIRY
 
 [4]
 Name=Tierra
@@ -53,7 +53,7 @@ Immunities=NORMAL,FIGHTING
 Name=Acero
 InternalName=STEEL
 Weaknesses=FIGHTING,GROUND,FIRE
-Resistances=NORMAL,FLYING,ROCK,BUG,GHOST,STEEL,GRASS,PSYCHIC,ICE,DRAGON,DARK
+Resistances=NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY
 Immunities=POISON
 
 [9]
@@ -66,7 +66,7 @@ Name=Fuego
 InternalName=FIRE
 IsSpecialType=true
 Weaknesses=GROUND,ROCK,WATER
-Resistances=BUG,STEEL,FIRE,GRASS,ICE
+Resistances=BUG,STEEL,FIRE,GRASS,ICE,FAIRY
 
 [11]
 Name=Agua
@@ -107,13 +107,27 @@ Resistances=ICE
 Name=Dragón
 InternalName=DRAGON
 IsSpecialType=true
-Weaknesses=ICE,DRAGON
+Weaknesses=ICE,DRAGON,FAIRY
 Resistances=FIRE,WATER,GRASS,ELECTRIC
 
 [17]
 Name=Siniestro
 InternalName=DARK
 IsSpecialType=true
-Weaknesses=FIGHTING,BUG
+Weaknesses=FIGHTING,BUG,FAIRY
 Resistances=GHOST,DARK
 Immunities=PSYCHIC
+
+[18]
+Name=Hada
+InternalName=FAIRY
+IsSpecialType=true
+Weaknesses=POISON,STEEL
+Resistances=FIGHTING,BUG,DARK
+Immunities=DRAGON
+
+[20]
+Name=Astral
+IsPseudoType=true
+InternalName=STELLAR
+IsSpecialType=true

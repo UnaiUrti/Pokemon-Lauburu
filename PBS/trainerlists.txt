@@ -1,10 +1,10 @@
-[DefaultTrainerList]
+﻿[DefaultTrainerList]
 Trainers=bttrainers.txt
 Pokemon=btpokemon.txt
 [TrainerList]
 Trainers=pokecuptr.txt
 Pokemon=pokecuppm.txt
-Challenges=pokecupsingle,pokecupdouble
+Challenges=pokecupsingle,pokecupdouble,arena
 [TrainerList]
 Trainers=littlecuptr.txt
 Pokemon=littlecuppm.txt
