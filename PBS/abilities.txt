@@ -285,7 +285,6 @@
 284,EARTHEATER,Geofagia,"Si lo alcanza un movimiento de tipo Tierra, recupera PS en vez de sufrir daño."
 285,ROCKYPAYLOAD,Transportarrocas,"Potencia los movimientos de tipo Roca."
 286,LINGERINGAROMA,Olor Persistente,"Contagia la habilidad Olor Persistente al Pokémon que lo ataque con un movimiento de contacto."
-
 287,THERMALEXCHANGE,Termoconversión,"Evita las quemaduras y, si lo alcanza un movimiento de tipo Fuego, aumenta su Ataque."
 288,GUARDDOG,Perro Guardián,"Aumenta su Ataque si sufre los efectos de Intimidación. También anula movimientos y objetos que fuercen el cambio de Pokémon."
 289,COMMANDER,Comandar,"Si al entrar en combate coincide con un Dondozo aliado, se cuela en el interior de su boca para tomar el control."
@@ -310,6 +309,7 @@
 308,TERASHIFT,Teracambio,"Al entrar en combate, adopta la Forma Teracristal tras absorber la energía de su alrededor."
 309,TERASHELL,Teracaparazón,"Su caparazón encierra energía de todos los tipos. Gracias a ello, si sus PS están al máximo, el movimiento que lo alcance no será muy eficaz." #TODO
 310,TERAFORMZERO,Teraformación 0,"Cuando Terapagos adopta la Forma Astral, anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto." #TODO
+311,ANCIENTTEACHING,Enseñanza Ancestral,"Se activa al comienzo del combate. El movimiento Poder Pasado de todos los miembros del equipo es sustituido por el movimiento Poder Presente." #EN PROCESO
 
 
 

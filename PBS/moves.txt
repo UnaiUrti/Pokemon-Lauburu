@@ -739,7 +739,6 @@
 739,EERIESPELL,Conjuro Funesto,215,80,PSYCHIC,Special,100,5,0,00,0,befk,"El usuario ataca con un poder psíquico de inmensa potencia y elimina 3 PP del último movimiento que haya usado el objetivo."
 740,GLACIALLANCE,Lanza Glacial,000,120,ICE,Physical,100,5,0,04,0,bef,"El usuario ataca al objetivo lánzandole un carambano de hielo envuelto en una ventisca."
 741,ASTRALBARRAGE,Orbes Espectro,000,120,GHOST,Special,100,5,0,04,0,bef,"El usuario ataca enviando una espantosa cantidad de pequeños fantasmas a los Pokémon rivales."
-
 742,HEADLONGRUSH,Arremetida,03C,120,GROUND,Physical,100,5,0,00,0,abef,"Arremete con todas sus fuerzas y reduce la Defensa y Def. Esp. del usuario."
 743,RAGINGFURY,Erupción de Ira,0D2,120,FIRE,Physical,100,10,0,00,0,abef,"El usuario ataca con unas violentas llamas de dos a tres turnos seguidos y, después, se queda confuso."
 744,WAVECRASH,Envite Acuático,0FB,120,WATER,Physical,100,10,0,00,0,abef,"El usuario se envuelve en agua y embiste contra el objetivo, pero también se hiere seriamente a sí mismo."
@@ -764,7 +763,6 @@
 763,SANDSEARSTORM,Simún de Arena,283,100,GROUND,Special,80,10,20,04,0,bef,"Ataca al objetivo envolviéndolo en unas arenas tórridas y un fuerte vendaval que lo queman."
 764,SPRINGTIDESTORM,Ciclón Primavera,042,100,FAIRY,Special,80,10,30,04,0,bef,"Desata una tormenta de amor y odio con la que envuelve y ataca al objetivo, además, puede reducir el ataque."
 765,POWERSHIFT,Cambiapoder,057,0,NORMAL,Status,0,10,0,10,0,d,"Intercambia su Ataque por su Defensa."
-
 766,FLOWERTRICK,Truco Floral,0A0,70,GRASS,Physical,0,10,0,00,0,bef,"Ataca al objetivo lanzándole un ramo de flores trucado. No falla nunca y siempre asesta un golpe crítico."
 767,TORCHSONG,Canto Ardiente,020,80,FIRE,Special,100,10,100,00,0,befk,"Expele tórridas llamaradas como si entonara una canción. Aumenta el At.Esp. del usuario."
 768,AQUASTEP,Danza Acuática,01F,80,WATER,Physical,100,10,100,00,0,abef,"Juguetea con el objetivo mientras ejecuta una elegante danza y le inflige daño. Aumenta la Velocidad del usuario."
@@ -839,3 +837,5 @@
 ############## 
 
 842,NIHILLIGHT,Luz devastadora,282,200,DRAGON,Special,100,10,0,00,0,bef,"Desata una poderosa luz que ignora todas las leyes de la naturaleza. Puede golpear a Pokémon de tipo Hada e ignora los cambios en las características del rival."
+843,PODERPRESENTE,Poder Presente,,90,ROCK,Special,100,5,0,00,0,,"Una versión reaprendida de Poder Pasado con el poder que poseía en su época original. Hace daño físico o especial en función de cuál inflija más daño. No sube las características como lo hace su versión moderna."
+#ID,NOMBREINTERNO,NOMBREJUEGO,ANIMACION,PODER,TIPO,CATEGORIA,PRECISION,PP,PRIORIDAD,PROPIEDADESESPECIALES,EFECTOSESPECIALES,FLAGSEXTRA,"DESCRIPCION"
