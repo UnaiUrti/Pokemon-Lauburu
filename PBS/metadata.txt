@@ -1,19 +1,19 @@
 ﻿[000]
-TrainerBattleBGM=Battle! (Trainer)
-WildBattleBGM=Battle! (Wild Pokemon)
 PlayerA=POKEMONTRAINER_Red,boy_walk,boy_bike,boy_surf_offset,boy_run,boy_surf_offset,boy_fish_offset,boy_fish_offset
 PlayerB=POKEMONTRAINER_Leaf,girl_walk,girl_bike,girl_surf_offset,girl_run,girl_surf_offset,girl_fish_offset,girl_fish_offset
 TrainerVictoryME=Victory - Trainer.ogg
 WildVictoryME=Victory - Wild Pokemon.ogg
+TrainerBattleBGM=Battle! (Trainer)
+SurfBGM=Surf
 BicycleBGM=Bike
 Home=3,7,5,8
-SurfBGM=Surf
+WildBattleBGM=Battle! (Wild Pokemon)
 [001]
 # Intro
 [002]
 # Pueblo Empanada
-Outdoor=true
 MapPosition=0,13,12
+Outdoor=true
 ShowArea=true
 [003]
 # Casa de \PN
@@ -25,17 +25,17 @@ HealingSpot=2,8,8
 MapPosition=0,13,12
 [005]
 # Ruta 1
-Outdoor=true
 MapPosition=0,13,11
+Outdoor=true
 ShowArea=true
 [006]
 # Casa de Kurt
 MapPosition=0,13,11
 [007]
 # Ciudad Milanesa
-Outdoor=true
-MapPosition=0,13,10
 MapSize=2,11
+MapPosition=0,13,10
+Outdoor=true
 ShowArea=true
 [008]
 # Casa de Belén
@@ -80,17 +80,17 @@ MapPosition=0,13,10
 MapPosition=0,13,10
 [021]
 # Ruta 2
-Outdoor=true
-MapPosition=0,14,8
 MapSize=1,11
-ShowArea=true
 Weather=Rain,50
+MapPosition=0,14,8
+Outdoor=true
+ShowArea=true
 [022]
 # Alola
 [023]
 # Pueblo Lomito
-Outdoor=true
 MapPosition=0,15,8
+Outdoor=true
 ShowArea=true
 [024]
 # Centro Pokémon
@@ -107,22 +107,22 @@ MapPosition=0,15,8
 MapPosition=0,15,8
 [028]
 # Parque Natural
-Outdoor=true
 BattleBack=Forest
 MapPosition=0,16,8
+Outdoor=true
 ShowArea=true
 [029]
 # Entrada Parque Natural
-MapPosition=0,16,8
 Bicycle=true
+MapPosition=0,16,8
 [030]
 # Sala Parque Natural
 MapPosition=0,16,8
 [031]
 # Ruta 3
-Outdoor=true
-MapPosition=0,14,6
 MapSize=2,1101
+MapPosition=0,14,6
+Outdoor=true
 ShowArea=true
 [032]
 # Galar
@@ -131,12 +131,12 @@ ShowArea=true
 [034]
 # Cueva Helada
 BattleBack=IndoorC
-MapPosition=0,15,6
 Bicycle=true
+MapPosition=0,15,6
 [035]
 # Monte Plateado
-Outdoor=true
 MapPosition=0,13,6
+Outdoor=true
 ShowArea=true
 [036]
 # Liga Pokémon
@@ -151,68 +151,68 @@ MapPosition=0,13,6
 MapPosition=0,13,6
 [039]
 # Ruta 4
-Outdoor=true
-MapPosition=0,11,6
 MapSize=2,11
+MapPosition=0,11,6
+Outdoor=true
 ShowArea=true
 [040]
 # Ruta 4
-Outdoor=true
 MapPosition=0,11,6
-BicycleAlways=True
+Outdoor=true
+BicycleAlways=true
 ShowArea=true
 [041]
 # Ruta 5
-Outdoor=true
-MapPosition=0,11,7
 MapSize=1,111
-BicycleAlways=True
+MapPosition=0,11,7
+Outdoor=true
+BicycleAlways=true
 ShowArea=true
 [042]
 # Paldea
 [044]
 # Ruta 6
-Outdoor=true
-MapPosition=0,11,10
 MapSize=2,11
+MapPosition=0,11,10
+Outdoor=true
 ShowArea=true
 [045]
 # Ruta 6
-Outdoor=true
 MapPosition=0,11,10
-BicycleAlways=True
+Outdoor=true
+BicycleAlways=true
 ShowArea=true
 [046]
 # Entrada Ruta Ciclista
-MapPosition=0,12,6
 Bicycle=true
+MapPosition=0,12,6
 [047]
 # Ruta 7
-Outdoor=true
-BattleBack=Mountain
-MapPosition=0,15,10
 MapSize=2,11
-ShowArea=true
+BattleBack=Mountain
 Weather=Rain,0
+MapPosition=0,15,10
+Outdoor=true
+ShowArea=true
 [049]
 # Cueva Rocosa
-MapPosition=0,16,10
 Bicycle=true
+MapPosition=0,16,10
 [050]
 # Cueva Rocosa
 BattleBack=CaveDark
-MapPosition=0,16,10
 Bicycle=true
+MapPosition=0,16,10
 DarkMap=true
 [051]
 # Mazmorra
-MapPosition=0,16,10
 Bicycle=true
 Dungeon=true
+MapPosition=0,16,10
 [052]
 # Frente de Batalla
-Outdoor=true
 MapPosition=0,17,10
+Outdoor=true
 ShowArea=true
 [053]
 # Centro Pokémon
@@ -261,25 +261,25 @@ MapPosition=0,17,10
 MapPosition=0,17,10
 [066]
 # Zona Safari
-Outdoor=true
 MapPosition=0,12,12
+Outdoor=true
 ShowArea=true
 [067]
 # Entrada Zona Safari
 MapPosition=0,12,12
 [068]
 # Zona Safari
-Outdoor=true
 BattleBack=Forest
 MapPosition=0,12,12
-ShowArea=true
 SafariMap=true
+Outdoor=true
+ShowArea=true
 [069]
 # Ruta 8
 DiveMap=70
-Outdoor=true
 BattleBack=Field
 MapPosition=0,13,13
+Outdoor=true
 ShowArea=true
 [070]
 # Fondo Marino
@@ -289,20 +289,27 @@ MapPosition=0,13,13
 MapPosition=0,13,13
 [072]
 # Isla Daroxy
-Outdoor=true
-MapPosition=0,18,17
-ShowArea=true
 Weather=Storm,50
+MapPosition=0,18,17
+Outdoor=true
+ShowArea=true
 [073]
 # Isla Faraday
-Outdoor=true
 MapPosition=0,22,16
+Outdoor=true
 ShowArea=true
 [074]
 # Entrada Ruta Ciclista
-MapPosition=0,12,10
 Bicycle=true
+MapPosition=0,12,10
 [075]
 # Región Tiall
-Outdoor=true
 MapPosition=1,13,16
+Outdoor=true
+[082]
+# Begotxu
+SnapEdges=true
+Bicycle=false
+Outdoor=false
+BicycleAlways=false
+ShowArea=false
